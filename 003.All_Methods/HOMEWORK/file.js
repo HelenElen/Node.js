@@ -2,7 +2,7 @@ var fs = require("fs");
 
 console.log("Going to open file");
 
-fs.open("example.txt", "w+", function (err, fd) {
+fs.open("example.txt", "a+", function (err, fd) {
   console.log("Opening file!");
   if (err) {
     console.log(err);
