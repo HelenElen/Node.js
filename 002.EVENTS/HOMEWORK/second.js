@@ -13,6 +13,7 @@ FileStream.write = function () {
 FileStream.on("read", () => {
   FileStream.read();
 });
+
 FileStream.on("write", () => {
   FileStream.write();
 });
