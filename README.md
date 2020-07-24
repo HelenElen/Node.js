@@ -9,6 +9,7 @@
 >>content.html <br>
 >>error.html <br>
 >>index.html <br>
+>>style.css <br>
 
 >index.js
 
